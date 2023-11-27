@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css"/>
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"/>
+   
+  </head>
+  <body>
+    <div class="form">
+      <h1><i class="bi bi-book"></i>My<span>Book</span>List</h1>
+      <div class="content">
+        <p>Title</p>
+        <input type="text" placeholder="Compount effect" id="title" />
+        <p>Author</p>
+        <input type="text" placeholder="Call Newport" id="author" />
+        <p>Color</p>
+        <input type="text" placeholder="Gray" id="color" />
+        <div class="radioall">
+          <input type="radio" name="type" class="radio" id="radio1" />
+          <label for="radio1">Phsycology</label>
+          <input type="radio" name="type" class="radio" id="radio2" />
+          <label for="radio2">Drama</label>
+          <input type="radio" name="type" class="radio" id="radio3" />
+          <label for="radio3">Motivation</label>
+        </div>
+        <div class="button">
+          <button id="btn">Add Book</button>
+        </div>
+      </div>
+      <table id="table">
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Type</th>
+        </tr>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
